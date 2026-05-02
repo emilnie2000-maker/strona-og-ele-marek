@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELE-MAREK — Usługi Elektryczne Warszawa | Profesjonalny Elektryk</title>
+  <meta name="description" content="ELE-MAREK to doświadczony elektryk w Warszawie. Instalacje elektryczne, usuwanie awarii 24/7, fotowoltaika. Szybko, rzetelnie i w uczciwej cenie.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <span class="logo-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></span>
+      <div>
+        <span class="logo-text">ELE-MAREK</span>
+        <span class="logo-sub">Usługi Elektryczne Warszawa</span>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Strona Główna</a>
+      <a href="o-firmie.html">O Firmie</a>
+      <a href="uslugi.html">Usługi</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+    <a href="tel:+48123456789" class="header-cta">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      Zadzwoń: 123 456 789
+    </a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<nav class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="index.html" class="active">Strona Główna</a>
+  <a href="o-firmie.html">O Firmie</a>
+  <a href="uslugi.html">Usługi</a>
+  <a href="kontakt.html">Kontakt</a>
+  <a href="tel:+48123456789" style="color:#D4920B;margin-top:20px">Tel. 123 456 789</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <!-- Dynamic Background -->
+  <div class="hero-noise"></div>
+  <div class="hero-grid-bg"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  
+  <div class="container hero-content">
+    <div class="hero-text-wrapper">
+      <h1 class="hero-title fade-up delay-1" style="margin-top:20px">
+        <span class="title-line">Niezawodna</span>
+        <span class="title-line text-gradient">elektryka</span>
+        <span class="title-line">dla Twojego domu.</span>
+      </h1>
+      <p class="hero-desc fade-up delay-2">Porzuć przestarzałe standardy. Projektujemy i wykonujemy instalacje elektryczne nowej generacji. Od inteligentnego domu po zaawansowane systemy komercyjne.</p>
+      <div class="hero-actions fade-up delay-3">
+        <a href="uslugi.html" class="btn-extravagant">
+          <span>Odkryj możliwości</span>
+          <div class="btn-arrow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></div>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual fade-up delay-4">
+      <div class="wire-sculpture">
+        <!-- Abstract CSS/SVG visual instead of a photo -->
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" stroke="var(--primary)" stroke-width="2" d="M 10 100 Q 50 10 100 100 T 190 100" class="wire wire-1"/>
+          <path fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" d="M 10 120 Q 70 20 100 120 T 190 120" class="wire wire-2"/>
+          <path fill="none" stroke="var(--primary-dark)" stroke-width="3" d="M 10 80 Q 40 40 100 80 T 190 80" class="wire wire-3"/>
+          <circle cx="100" cy="100" r="5" fill="var(--primary)" class="spark"/>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- DLACZEGO MY -->
+<section class="section section-light" id="whyUs">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label fade-up">DLACZEGO ELE-MAREK</p>
+      <h2 class="section-title fade-up delay-1">Elektryka z prawdziwą pasją i odpowiedzialnością</h2>
+    </div>
+    <div class="cards-grid">
+      <div class="card fade-up">
+        <span class="card-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg></span>
+        <h3>Doświadczony zespół</h3>
+        <p>Ponad 17 lat na rynku, setki zrealizowanych instalacji w całej Warszawie.</p>
+      </div>
+      <div class="card fade-up delay-1">
+        <span class="card-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></span>
+        <h3>Szybka reakcja</h3>
+        <p>Wyjeżdżamy do awarii nawet w ciągu 1 godziny od zgłoszenia.</p>
+      </div>
+      <div class="card fade-up delay-2">
+        <span class="card-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2"></circle><path d="M6 12h.01M18 12h.01"></path></svg></span>
+        <h3>Uczciwe ceny</h3>
+        <p>Wycena przed pracą, bez ukrytych kosztów. Cena ustalona to cena ostateczna.</p>
+      </div>
+      <div class="card fade-up delay-3">
+        <span class="card-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></span>
+        <h3>Pełna dokumentacja</h3>
+        <p>Protokoły odbioru, gwarancja na wykonane prace i pełne rozliczenie.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- LICZNIKI -->
+<section class="section section-dark" id="stats">
+  <div class="container">
+    <div class="counters">
+      <div class="counter-item fade-up">
+        <div class="counter-num" data-count="500" data-suffix="+">0</div>
+        <div class="counter-label">Zrealizowanych zleceń</div>
+      </div>
+      <div class="counter-item fade-up delay-1">
+        <div class="counter-num" data-count="17" data-suffix="">0</div>
+        <div class="counter-label">Lat doświadczenia</div>
+      </div>
+      <div class="counter-item fade-up delay-2">
+        <div class="counter-num" data-count="98" data-suffix="%">0</div>
+        <div class="counter-label">Zadowolonych klientów</div>
+      </div>
+      <div class="counter-item fade-up delay-3">
+        <div class="counter-num" data-count="24" data-suffix="/7">0</div>
+        <div class="counter-label">Dostępność w nagłych przypadkach</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- USŁUGI PREVIEW -->
+<section class="section section-dark" id="servicesPreview" style="background:#05070a">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label fade-up">NASZE USŁUGI</p>
+      <h2 class="section-title fade-up delay-1">Co możemy dla Ciebie zrobić?</h2>
+      <p class="section-desc fade-up delay-2">Oferujemy szeroki zakres usług elektrycznych dla klientów indywidualnych i firm w Warszawie i okolicach.</p>
+    </div>
+    <div class="services-extravagant-grid">
+      <!-- 1 -->
+      <div class="service-extravagant-card fade-up">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop" alt="Instalacje elektryczne">
+        </div>
+        <div class="service-content">
+          <h3>Instalacje elektryczne</h3>
+          <p>Kompleksowe wykonanie nowych instalacji w domach i budynkach komercyjnych.</p>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="service-extravagant-card fade-up delay-1">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&h=400&fit=crop" alt="Wymiana rozdzielni">
+        </div>
+        <div class="service-content">
+          <h3>Wymiana rozdzielni</h3>
+          <p>Modernizacja rozdzielni z nowoczesnymi zabezpieczeniami RCD.</p>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="service-extravagant-card fade-up delay-2">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=600&h=400&fit=crop" alt="Montaż oświetlenia">
+        </div>
+        <div class="service-content">
+          <h3>Montaż oświetlenia</h3>
+          <p>Instalacja oświetlenia LED, lamp wiszących i rozwiązań energooszczędnych.</p>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="service-extravagant-card fade-up delay-3">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&h=400&fit=crop" alt="Usuwanie awarii">
+        </div>
+        <div class="service-content">
+          <h3>Usuwanie awarii 24/7</h3>
+          <p>Pogotowie elektryczne — docieramy w ciągu 1–2 godzin od zgłoszenia.</p>
+        </div>
+      </div>
+
+    </div> <!-- END services-extravagant-grid -->
+
+    <div style="text-align: center; margin-top: 60px;">
+      <a href="uslugi.html" class="btn-extravagant">
+        <span>Zobacz wszystkie usługi</span>
+        <div class="btn-arrow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- OPINIE -->
+<section class="section section-light" id="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label fade-up">OPINIE KLIENTOW</p>
+      <h2 class="section-title fade-up delay-1">Co mowia o nas klienci?</h2>
+    </div>
+    <div class="testimonials-wrapper">
+      <div class="testimonials-track" id="testimonialsTrack">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Pan Marek przyjechał w ciągu godziny od zgłoszenia awarii. Profesjonalnie, sprawnie i bez zbędnego bałaganu. Polecam z całego serca!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#c0392b">AK</div>
+            <div><div class="testimonial-name">Anna K.</div><div class="testimonial-loc">Warszawa Mokotów</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Wymiana całej instalacji elektrycznej w starym mieszkaniu — zrobiona terminowo, z pełną dokumentacją. Cena zgodna z wyceną. Rewelacja.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#2980b9">TW</div>
+            <div><div class="testimonial-name">Tomasz W.</div><div class="testimonial-loc">Warszawa Śródmieście</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Montaż klimatyzacji i nowych gniazdek w biurze. Ekipa pracowała sprawnie, posprzątali po sobie. Na pewno wrócimy przy kolejnych pracach.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#27ae60">B</div>
+            <div><div class="testimonial-name">Firma Budmax</div><div class="testimonial-loc">Warszawa</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Szybki kontakt, uczciwa wycena i solidna robota. Pan Marek to elektryk, którego naprawdę można polecić rodzinie i znajomym.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#8e44ad">KM</div>
+            <div><div class="testimonial-name">Krzysztof M.</div><div class="testimonial-loc">Warszawa Praga</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Instalacja fotowoltaiczna na dachu — przeprowadzona bez problemów, wszystko wyjaśnione krok po kroku. Oszczędzamy już od pierwszego miesiąca!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#d35400">RN</div>
+            <div><div class="testimonial-name">Rodzina Nowakowskich</div><div class="testimonial-loc">okolice Warszawy</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Wymiana rozdzielni w domu jednorodzinnym. Wszystko sprawnie, bezpiecznie i z protokołem. Polecam każdemu w okolicach Warszawy!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#16a085">MZ</div>
+            <div><div class="testimonial-name">Marta Z.</div><div class="testimonial-loc">Piaseczno</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Instalacja oświetlenia LED w całym domu. Efekt wizualny rewelacyjny, a rachunki za prąd spadły o 30%. Profesjonalne doradztwo i wykonanie.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#2c3e50">PB</div>
+            <div><div class="testimonial-name">Piotr B.</div><div class="testimonial-loc">Warszawa Ursynów</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Awaria w sobotę wieczorem — pan Marek przyjechał w niecałą godzinę. Problem rozwiązany szybko i fachowo. Naprawdę godny zaufania elektryk.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#e67e22">EW</div>
+            <div><div class="testimonial-name">Ewa W.</div><div class="testimonial-loc">Warszawa Bielany</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-arrow" id="sliderPrev" aria-label="Poprzednia opinia">&#8249;</button>
+      <div class="slider-dots" id="sliderDots"></div>
+      <button class="slider-arrow" id="sliderNext" aria-label="Nastepna opinia">&#8250;</button>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-white" id="faq">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label fade-up">FAQ</p>
+      <h2 class="section-title fade-up delay-1">Masz pytania? Mamy odpowiedzi.</h2>
+    </div>
+    <div class="faq-list fade-up delay-2">
+      <div class="faq-item">
+        <div class="faq-question">Jak szybko możecie przyjechać do awarii? <span class="faq-arrow">▼</span></div>
+        <div class="faq-answer"><p>W nagłych przypadkach staramy się dotrzeć na miejsce w ciągu 1–2 godzin od zgłoszenia. Działamy 7 dni w tygodniu, także w weekendy i święta.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Czy wykonujecie wycenę przed rozpoczęciem prac? <span class="faq-arrow">▼</span></div>
+        <div class="faq-answer"><p>Tak, zawsze przedstawiamy bezpłatną wycenę zanim przystąpimy do pracy. Nie pobieramy ukrytych opłat — cena ustalona to cena ostateczna.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Czy posiadacie odpowiednie uprawnienia i certyfikaty? <span class="faq-arrow">▼</span></div>
+        <div class="faq-answer"><p>Oczywiście. Nasi elektrycy posiadają uprawnienia SEP do 1kV i powyżej, a wszystkie prace wykonujemy zgodnie z obowiązującymi normami i przepisami.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Na jakim terenie działacie? <span class="faq-arrow">▼</span></div>
+        <div class="faq-answer"><p>Obsługujemy całą Warszawę i okolice w promieniu do 50 km. W przypadku większych zleceń możemy dojechać dalej — skontaktuj się z nami.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Czy wystawiacie faktury VAT? <span class="faq-arrow">▼</span></div>
+        <div class="faq-answer"><p>Tak, wystawiamy faktury VAT dla klientów indywidualnych i firm. NIP firmy: 123-456-78-99.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Czy dajecie gwarancję na wykonane prace? <span class="faq-arrow">▼</span></div>
+        <div class="faq-answer"><p>Na wszystkie wykonane instalacje i usługi udzielamy 24-miesięcznej gwarancji. Wydajemy protokół odbioru po każdej większej pracy.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Czy montujecie instalacje fotowoltaiczne? <span class="faq-arrow">▼</span></div>
+        <div class="faq-answer"><p>Tak, oferujemy kompleksowy montaż paneli fotowoltaicznych wraz z niezbędnymi instalacjami elektrycznymi i dokumentacją do dofinansowania.</p></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4 class="footer-heading">Śledź nasz profil</h4>
+        <div class="footer-socials">
+          <a href="#" class="footer-social fb" aria-label="Facebook">f</a>
+          <a href="#" class="footer-social tk" aria-label="TikTok">T</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-address">
+          <span class="footer-address-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+          <div class="footer-address-text">
+            <p><strong>ELE-MAREK – Usługi Elektryczne</strong></p>
+            <p>ul. Złota 44</p>
+            <p>12-345 Warszawa</p>
+            <p>NIP: 123-456-78-99</p>
+            <p class="tagline">Twój tani i sprawdzony Elektryk</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="footer-phone">
+          <span class="footer-phone-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+          <span class="footer-phone-num">123 456 789</span>
+          <span class="footer-phone-email">ele-marek@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2025 ELE-MAREK. Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
